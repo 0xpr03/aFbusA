@@ -1,0 +1,757 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+This file describes custom errors for Robo Interface VIs.
+</nicomment>
+<nierror code="0">
+FTLIB_ERR_SUCCESS
+</nierror>
+<nierror code="-536870911">
+FTLIB_ERR_CRC
+</nierror>
+<nierror code="-536870910">
+FTLIB_ERR_BTSTUFF
+</nierror>
+<nierror code="-536870909">
+FTLIB_ERR_DATA_TOGGLE_MISMATCH
+</nierror>
+<nierror code="-536870908">
+FTLIB_ERR_STALL_PID
+</nierror>
+<nierror code="-536870907">
+FTLIB_ERR_DEV_NOT_RESPONDING
+</nierror>
+<nierror code="-536870906">
+FTLIB_ERR_PID_CHECK_FAILURE
+</nierror>
+<nierror code="-536870905">
+FTLIB_ERR_UNEXPECTED_PID
+</nierror>
+<nierror code="-536870904">
+FTLIB_ERR_DATA_OVERRUN
+</nierror>
+<nierror code="-536870903">
+FTLIB_ERR_DATA_UNDERRUN
+</nierror>
+<nierror code="-536870902">
+FTLIB_ERR_RESERVED1
+</nierror>
+<nierror code="-536870901">
+FTLIB_ERR_RESERVED2
+</nierror>
+<nierror code="-536870900">
+FTLIB_ERR_BUFFER_OVERRUN
+</nierror>
+<nierror code="-536870899">
+FTLIB_ERR_BUFFER_UNDERRUN
+</nierror>
+<nierror code="-536870897">
+FTLIB_ERR_NOT_ACCESSED
+</nierror>
+<nierror code="-536870896">
+FTLIB_ERR_FIFO
+</nierror>
+<nierror code="-536870895">
+FTLIB_ERR_XACT_ERROR
+</nierror>
+<nierror code="-536870894">
+FTLIB_ERR_BABBLE_DETECTED
+</nierror>
+<nierror code="-536870893">
+FTLIB_ERR_DATA_BUFFER_ERROR
+</nierror>
+<nierror code="-536870864">
+FTLIB_ERR_ENDPOINT_HALTED
+</nierror>
+<nierror code="-536870656">
+FTLIB_ERR_NO_MEMORY
+</nierror>
+<nierror code="-536870400">
+FTLIB_ERR_INVALID_URB_FUNCTION
+</nierror>
+<nierror code="-536870144">
+FTLIB_ERR_INVALID_PARAMETER
+</nierror>
+<nierror code="-536869888">
+FTLIB_ERR_ERROR_BUSY
+</nierror>
+<nierror code="-536869376">
+FTLIB_ERR_INVALID_PIPE_HANDLE
+</nierror>
+<nierror code="-536869120">
+FTLIB_ERR_NO_BANDWIDTH
+</nierror>
+<nierror code="-536868864">
+FTLIB_ERR_INTERNAL_HC_ERROR
+</nierror>
+<nierror code="-536868608">
+FTLIB_ERR_ERROR_SHORT_TRANSFER
+</nierror>
+<nierror code="-536868352">
+FTLIB_ERR_BAD_START_FRAME
+</nierror>
+<nierror code="-536868096">
+FTLIB_ERR_ISOCH_REQUEST_FAILED
+</nierror>
+<nierror code="-536867840">
+FTLIB_ERR_FRAME_CONTROL_OWNED
+</nierror>
+<nierror code="-536867584">
+FTLIB_ERR_FRAME_CONTROL_NOT_OWNED
+</nierror>
+<nierror code="-536867328">
+FTLIB_ERR_NOT_SUPPORTED
+</nierror>
+<nierror code="-536867072">
+FTLIB_ERR_INVALID_CONFIGURATION_DESCRIPTOR
+</nierror>
+<nierror code="-402649088">
+FTLIB_ERR_INSUFFICIENT_RESOURCES
+</nierror>
+<nierror code="-536862720">
+FTLIB_ERR_SET_CONFIG_FAILED
+</nierror>
+<nierror code="-536858624">
+FTLIB_ERR_USBD_BUFFER_TOO_SMALL
+</nierror>
+<nierror code="-536854528">
+FTLIB_ERR_USBD_INTERFACE_NOT_FOUND
+</nierror>
+<nierror code="-536850432">
+FTLIB_ERR_INVALID_PIPE_FLAGS
+</nierror>
+<nierror code="-536846336">
+FTLIB_ERR_USBD_TIMEOUT
+</nierror>
+<nierror code="-536842240">
+FTLIB_ERR_DEVICE_GONE
+</nierror>
+<nierror code="-536838144">
+FTLIB_ERR_STATUS_NOT_MAPPED
+</nierror>
+<nierror code="-536805376">
+FTLIB_ERR_CANCELED
+</nierror>
+<nierror code="-536739840">
+FTLIB_ERR_ISO_NOT_ACCESSED_BY_HW
+</nierror>
+<nierror code="-536674304">
+FTLIB_ERR_ISO_TD_ERROR
+</nierror>
+<nierror code="-536608768">
+FTLIB_ERR_ISO_NA_LATE_USBPORT
+</nierror>
+<nierror code="-536543232">
+FTLIB_ERR_ISO_NOT_ACCESSED_LATE
+</nierror>
+<nierror code="-536866816">
+FTLIB_ERR_FAILED
+</nierror>
+<nierror code="-536866815">
+FTLIB_ERR_INVALID_INBUFFER
+</nierror>
+<nierror code="-536866814">
+FTLIB_ERR_INVALID_OUTBUFFER
+</nierror>
+<nierror code="-536866813">
+FTLIB_ERR_OUT_OF_MEMORY
+</nierror>
+<nierror code="-536866812">
+FTLIB_ERR_PENDING_REQUESTS
+</nierror>
+<nierror code="-536866811">
+FTLIB_ERR_ALREADY_CONFIGURED
+</nierror>
+<nierror code="-536866810">
+FTLIB_ERR_NOT_CONFIGURED
+</nierror>
+<nierror code="-536866809">
+FTLIB_ERR_OPEN_PIPES
+</nierror>
+<nierror code="-536866808">
+FTLIB_ERR_ALREADY_BOUND
+</nierror>
+<nierror code="-536866807">
+FTLIB_ERR_NOT_BOUND
+</nierror>
+<nierror code="-536866806">
+FTLIB_ERR_DEVICE_NOT_PRESENT
+</nierror>
+<nierror code="-536866805">
+FTLIB_ERR_CONTROL_NOT_SUPPORTED
+</nierror>
+<nierror code="-536866804">
+FTLIB_ERR_TIMEOUT
+</nierror>
+<nierror code="-536866803">
+FTLIB_ERR_INVALID_RECIPIENT
+</nierror>
+<nierror code="-536866802">
+FTLIB_ERR_INVALID_TYPE
+</nierror>
+<nierror code="-536866801">
+FTLIB_ERR_INVALID_IOCTL
+</nierror>
+<nierror code="-536866800">
+FTLIB_ERR_INVALID_DIRECTION
+</nierror>
+<nierror code="-536866799">
+FTLIB_ERR_TOO_MUCH_ISO_PACKETS
+</nierror>
+<nierror code="-536866798">
+FTLIB_ERR_POOL_EMPTY
+</nierror>
+<nierror code="-536866797">
+FTLIB_ERR_PIPE_NOT_FOUND
+</nierror>
+<nierror code="-536866796">
+FTLIB_ERR_INVALID_ISO_PACKET
+</nierror>
+<nierror code="-536866795">
+FTLIB_ERR_OUT_OF_ADDRESS_SPACE
+</nierror>
+<nierror code="-536866794">
+FTLIB_ERR_INTERFACE_NOT_FOUND
+</nierror>
+<nierror code="-536866793">
+FTLIB_ERR_INVALID_DEVICE_STATE
+</nierror>
+<nierror code="-536866792">
+FTLIB_ERR_INVALID_PARAM
+</nierror>
+<nierror code="-536866790">
+FTLIB_ERR_INVALID_POWER_STATE
+</nierror>
+<nierror code="-536866789">
+FTLIB_ERR_POWER_DOWN
+</nierror>
+<nierror code="-536866788">
+FTLIB_ERR_VERSION_MISMATCH
+</nierror>
+<nierror code="-536866787">
+FTLIB_ERR_SET_CONFIGURATION_FAILED
+</nierror>
+<nierror code="-536866688">
+FTLIB_ERR_VID_RESTRICTION
+</nierror>
+<nierror code="-536866687">
+FTLIB_ERR_ISO_RESTRICTION
+</nierror>
+<nierror code="-536866686">
+FTLIB_ERR_BULK_RESTRICTION
+</nierror>
+<nierror code="-536866685">
+FTLIB_ERR_EP0_RESTRICTION
+</nierror>
+<nierror code="-536866684">
+FTLIB_ERR_PIPE_RESTRICTION
+</nierror>
+<nierror code="-536866683">
+FTLIB_ERR_PIPE_SIZE_RESTRICTION
+</nierror>
+<nierror code="-536866682">
+FTLIB_ERR_CONTROL_RESTRICTION
+</nierror>
+<nierror code="-536866681">
+FTLIB_ERR_INTERRUPT_RESTRICTION
+</nierror>
+<nierror code="-536866560">
+FTLIB_ERR_DEVICE_NOT_FOUND
+</nierror>
+<nierror code="-536866559">
+FTLIB_ERR_SOME_DEVICES_ARE_OPEN
+</nierror>
+<nierror code="-536866558">
+FTLIB_ERR_DEVICE_IS_OPEN
+</nierror>
+<nierror code="-536866557">
+FTLIB_ERR_DEVICE_NOT_OPEN
+</nierror>
+<nierror code="-536866556">
+FTLIB_ERR_NO_SUCH_DEVICE_INSTANCE
+</nierror>
+<nierror code="-536866555">
+FTLIB_ERR_INVALID_FUNCTION_PARAM
+</nierror>
+<nierror code="-536866554">
+FTLIB_ERR_DESTROY_DEVICE_LIST
+</nierror>
+<nierror code="-536866553">
+FTLIB_ERR_USB_NOT_SUPPORTET_FROM_OS
+</nierror>
+<nierror code="-536866552">
+FTLIB_ERR_CLOSE_DEVICE
+</nierror>
+<nierror code="-536866175">
+FTLIB_ERR_DEVICE_NOT_SUPPORTET
+</nierror>
+<nierror code="-536866174">
+FTLIB_ERR_WRONG_DEVICE_NUMBER
+</nierror>
+<nierror code="-536866173">
+FTLIB_ERR_UNKNOWN_DEVICE_HANDLE
+</nierror>
+<nierror code="-536866172">
+FTLIB_ERR_WRONG_USB_HANDLE
+</nierror>
+<nierror code="-536866171">
+FTLIB_ERR_WRONG_PATHNAME
+</nierror>
+<nierror code="-536866170">
+FTLIB_ERR_LIB_IS_INITIALIZED
+</nierror>
+<nierror code="-536866169">
+FTLIB_ERR_LIB_IS_NOT_INITIALIZED
+</nierror>
+<nierror code="-536866168">
+FTLIB_ERR_SERIAL_NR_UNKNOWN
+</nierror>
+<nierror code="-536866167">
+FTLIB_ERR_POWER_TOO_LOW
+</nierror>
+<nierror code="-536866166">
+FTLIB_ERR_WRONG_RETURN_VALUE
+</nierror>
+<nierror code="-536866165">
+FTLIB_ERR_USB_SUPPORT_IS_NOT_INITIALIZED
+</nierror>
+<nierror code="-536866160">
+FTLIB_ERR_USB_MUT0
+</nierror>
+<nierror code="-536866159">
+FTLIB_ERR_USB_MUT1
+</nierror>
+<nierror code="-536866158">
+FTLIB_ERR_USB_MUT2
+</nierror>
+<nierror code="-536866157">
+FTLIB_ERR_USB_MUT3
+</nierror>
+<nierror code="-536866155">
+FTLIB_ERR_USB_DEVICE_IS_IN_USE
+</nierror>
+<nierror code="-536866144">
+FTLIB_ERR_THREAD_NOT_STARTABLE
+</nierror>
+<nierror code="-536866143">
+FTLIB_ERR_THREAD_NOT_STARTABLE_X1
+</nierror>
+<nierror code="-536866142">
+FTLIB_ERR_THREAD_NOT_STARTABLE_X2
+</nierror>
+<nierror code="-536866141">
+FTLIB_ERR_THREAD_NOT_STARTABLE_X3
+</nierror>
+<nierror code="-536866140">
+FTLIB_ERR_OTHER_THREAD_FOR_SAME_DEVICE_IS_RUN
+</nierror>
+<nierror code="-536866139">
+FTLIB_ERR_THREAD_IS_RUNNING
+</nierror>
+<nierror code="-536866138">
+FTLIB_ERR_THREAD_NOT_RUNNING
+</nierror>
+<nierror code="-536866137">
+FTLIB_ERR_THREAD_X1
+</nierror>
+<nierror code="-536866136">
+FTLIB_ERR_THREAD_X2
+</nierror>
+<nierror code="-536866135">
+FTLIB_ERR_THREAD_WRITE_USB
+</nierror>
+<nierror code="-536866134">
+FTLIB_ERR_THREAD_READ_USB
+</nierror>
+<nierror code="-536866133">
+FTLIB_ERR_THREAD_IS_NORMAL_STOPPED
+</nierror>
+<nierror code="-536866132">
+FTLIB_ERR_THREAD_WAIT_TIMEOUT
+</nierror>
+<nierror code="-536866131">
+FTLIB_ERR_THREAD_WRITE_COM
+</nierror>
+<nierror code="-536866130">
+FTLIB_ERR_THREAD_READ_COM
+</nierror>
+<nierror code="-536866112">
+FTLIB_ERR_DOWNLOAD
+</nierror>
+<nierror code="-536866111">
+FTLIB_ERR_DOWNLOAD_WRONG_PARAMETER
+</nierror>
+<nierror code="-536866110">
+FTLIB_ERR_DOWNLOAD_WRONG_MEM_BLOCK
+</nierror>
+<nierror code="-536866109">
+FTLIB_ERR_DOWNLOAD_DATA_SIZE_IS_NULL
+</nierror>
+<nierror code="-536866108">
+FTLIB_ERR_DOWNLOAD_DATA_SIZE_TOO_BIG
+</nierror>
+<nierror code="-536866107">
+FTLIB_ERR_DOWNLOAD_DATA_SIZE
+</nierror>
+<nierror code="-536866106">
+FTLIB_ERR_DOWNLOAD_ERASE
+</nierror>
+<nierror code="-536866105">
+FTLIB_ERR_DOWNLOAD_F5
+</nierror>
+<nierror code="-536866104">
+FTLIB_ERR_DOWNLOAD_PROG_SNF1
+</nierror>
+<nierror code="-536866103">
+FTLIB_ERR_DOWNLOAD_PROG_SNF2
+</nierror>
+<nierror code="-536866102">
+FTLIB_ERR_DOWNLOAD_BLOCK
+</nierror>
+<nierror code="-536866101">
+FTLIB_ERR_DOWNLOAD_BLOCK_NR
+</nierror>
+<nierror code="-536866099">
+FTLIB_ERR_DOWNLOAD_CRC
+</nierror>
+<nierror code="-536866080">
+FTLIB_ERR_IF_NO_PROGRAM
+</nierror>
+<nierror code="-536866079">
+FTLIB_ERR_IF_PROGRAM_IS_RUNNING
+</nierror>
+<nierror code="-536866078">
+FTLIB_ERR_IF_NO_PROGRAM_IS_RUNNING
+</nierror>
+<nierror code="-536866077">
+FTLIB_ERR_IF_WRONG_PROG_NUMBER
+</nierror>
+<nierror code="-536866076">
+FTLIB_ERR_IF_BUFFER_TOO_SMALL
+</nierror>
+<nierror code="-536866075">
+FTLIB_ERR_IF_MEM_ADDRESS
+</nierror>
+<nierror code="-536866074">
+FTLIB_ERR_IF_MEM_VERIFY
+</nierror>
+<nierror code="-536866073">
+FTLIB_ERR_IF_NOT_SUPPORTET_MODUS
+</nierror>
+<nierror code="-536866072">
+FTLIB_ERR_IF_FUNCTION_NOT_SUPPORT
+</nierror>
+<nierror code="-536866071">
+FTLIB_ERR_FUNCTION_OVER_RF_NOT_ALLOWED
+</nierror>
+<nierror code="-536865280">
+FTLIB_INFO_PROGRAM_0_IS_RUNNING
+</nierror>
+<nierror code="-536865279">
+FTLIB_INFO_PROGRAM_1_IS_RUNNING
+</nierror>
+<nierror code="-536865278">
+FTLIB_INFO_PROGRAM_2_IS_RUNNING
+</nierror>
+<nierror code="-536865248">
+FTLIB_INFO_ONLINE_MODUS
+</nierror>
+<nierror code="-536864768">
+FTLIB_FIRMWARE_UPDATE_FILE_WRONG_0
+</nierror>
+<nierror code="-536864767">
+FTLIB_FIRMWARE_UPDATE_CRC
+</nierror>
+<nierror code="-536864766">
+FTLIB_FIRMWARE_UPDATE_FILE_OLD
+</nierror>
+<nierror code="-536864765">
+FTLIB_FIRMWARE_UPDATE_FILE_WRONG_1
+</nierror>
+<nierror code="-536864512">
+FTLIB_ERR_PORT_NUMBER
+</nierror>
+<nierror code="-536864511">
+FTLIB_ERR_WRONG_PORT
+</nierror>
+<nierror code="-536864510">
+FTLIB_ERR_PORT_NUMBER_IS_NULL
+</nierror>
+<nierror code="-536864509">
+FTLIB_ERR_TYP
+</nierror>
+<nierror code="-536864508">
+FTLIB_ERR_PORT_NOT_FOUND
+</nierror>
+<nierror code="-536864507">
+FTLIB_ERR_ACCESS_DENIED
+</nierror>
+<nierror code="-536864506">
+FTLIB_ERR_OPEN_COM
+</nierror>
+<nierror code="-536864505">
+FTLIB_ERR_CLOSE_COM
+</nierror>
+<nierror code="-536864504">
+FTLIB_ERR_INIT_COM
+</nierror>
+<nierror code="-536864503">
+FTLIB_ERR_INIT_COM_TIMEOUT
+</nierror>
+<nierror code="-536864502">
+FTLIB_ERR_WRITE_COM
+</nierror>
+<nierror code="-536864501">
+FTLIB_ERR_READ_COM
+</nierror>
+<nierror code="-536864500">
+FTLIB_ERR_READ_COM_NUMBER
+</nierror>
+<nierror code="-536864499">
+FTLIB_ERR_READ_COM_NOTHING
+</nierror>
+<nierror code="-536864256">
+FTLIB_ERR_RF_NOT_INSTALLED
+</nierror>
+<nierror code="-536864255">
+FTLIB_ERR_RF_WRONG_CHANNEL
+</nierror>
+<nierror code="-536864254">
+FTLIB_ERR_RF_WRONG_SUB_CHANNEL
+</nierror>
+<nierror code="-536864253">
+FTLIB_ERR_RF_NO_CONNECTION
+</nierror>
+<nierror code="-536864252">
+FTLIB_ERR_RF_NO_CONNECTION_A
+</nierror>
+<nierror code="-536864251">
+FTLIB_ERR_RF_NO_CONNECTION_B
+</nierror>
+<nierror code="-536864250">
+FTLIB_ERR_RF_NO_CONNECTION_C
+</nierror>
+<nierror code="-536864248">
+FTLIB_ERR_RF_TIMEOUT_1
+</nierror>
+<nierror code="-536864247">
+FTLIB_ERR_RF_TIMEOUT_2
+</nierror>
+<nierror code="-536864246">
+FTLIB_ERR_RF_FW_OLD1
+</nierror>
+<nierror code="-536864243">
+FTLIB_ERR_RF_INTERNAL_1
+</nierror>
+<nierror code="-536864242">
+FTLIB_ERR_RF_NO_INTERFACE_MODULE_FOUND
+</nierror>
+<nierror code="-536864000">
+FTLIB_ERR_DLL_NOT_LOADABLE
+</nierror>
+<nierror code="-536863999">
+FTLIB_ERR_DLL_FUNCTION_ERROR
+</nierror>
+<nierror code="-536863744">
+FTLIB_ERR_MSG_HWID_WRONG
+</nierror>
+<nierror code="-536863743">
+FTLIB_ERR_MSG_BUFFER_FULL_TIMEOUT
+</nierror>
+<nierror code="-536863488">
+FTLIB_ERR_UNKNOWN_OPTION_VALUE
+</nierror>
+<nierror code="-536862976">
+FTLIB_ERR_INTERFACE_00
+</nierror>
+<nierror code="-536862975">
+FTLIB_ERR_INTERFACE_01
+</nierror>
+<nierror code="-536862974">
+FTLIB_ERR_INTERFACE_02
+</nierror>
+<nierror code="-536862973">
+FTLIB_ERR_INTERFACE_03
+</nierror>
+<nierror code="-536862972">
+FTLIB_ERR_INTERFACE_04
+</nierror>
+<nierror code="-536862971">
+FTLIB_ERR_INTERFACE_05
+</nierror>
+<nierror code="-536862970">
+FTLIB_ERR_INTERFACE_06
+</nierror>
+<nierror code="-536862969">
+FTLIB_ERR_INTERFACE_07
+</nierror>
+<nierror code="-536862968">
+FTLIB_ERR_INTERFACE_08
+</nierror>
+<nierror code="-536862967">
+FTLIB_ERR_INTERFACE_09
+</nierror>
+<nierror code="-536862966">
+FTLIB_ERR_INTERFACE_0A
+</nierror>
+<nierror code="-536862965">
+FTLIB_ERR_INTERFACE_0B
+</nierror>
+<nierror code="-536862964">
+FTLIB_ERR_INTERFACE_0C
+</nierror>
+<nierror code="-536862963">
+FTLIB_ERR_INTERFACE_0D
+</nierror>
+<nierror code="-536862962">
+FTLIB_ERR_INTERFACE_0E
+</nierror>
+<nierror code="-536862961">
+FTLIB_ERR_INTERFACE_0F
+</nierror>
+<nierror code="-536862768">
+FTLIB_ERR_INTERFACE_D0
+</nierror>
+<nierror code="-536862767">
+FTLIB_ERR_INTERFACE_D1
+</nierror>
+<nierror code="-536862766">
+FTLIB_ERR_INTERFACE_D2
+</nierror>
+<nierror code="-536862765">
+FTLIB_ERR_INTERFACE_D3
+</nierror>
+<nierror code="-536862764">
+FTLIB_ERR_INTERFACE_D4
+</nierror>
+<nierror code="-536862763">
+FTLIB_ERR_INTERFACE_D5
+</nierror>
+<nierror code="-536862762">
+FTLIB_ERR_INTERFACE_D6
+</nierror>
+<nierror code="-536862761">
+FTLIB_ERR_INTERFACE_D7
+</nierror>
+<nierror code="-536862760">
+FTLIB_ERR_INTERFACE_D8
+</nierror>
+<nierror code="-536862759">
+FTLIB_ERR_INTERFACE_D9
+</nierror>
+<nierror code="-536862758">
+FTLIB_ERR_INTERFACE_DA
+</nierror>
+<nierror code="-536862757">
+FTLIB_ERR_INTERFACE_DB
+</nierror>
+<nierror code="-536862756">
+FTLIB_ERR_INTERFACE_DC
+</nierror>
+<nierror code="-536862755">
+FTLIB_ERR_INTERFACE_DD
+</nierror>
+<nierror code="-536862754">
+FTLIB_ERR_INTERFACE_DE
+</nierror>
+<nierror code="-536862753">
+FTLIB_ERR_INTERFACE_DF
+</nierror>
+<nierror code="-536862752">
+FTLIB_ERR_INTERFACE_E0
+</nierror>
+<nierror code="-536862751">
+FTLIB_ERR_INTERFACE_E1
+</nierror>
+<nierror code="-536862750">
+FTLIB_ERR_INTERFACE_E2
+</nierror>
+<nierror code="-536862749">
+FTLIB_ERR_INTERFACE_E3
+</nierror>
+<nierror code="-536862748">
+FTLIB_ERR_INTERFACE_E4
+</nierror>
+<nierror code="-536862747">
+FTLIB_ERR_INTERFACE_E5
+</nierror>
+<nierror code="-536862746">
+FTLIB_ERR_INTERFACE_E6
+</nierror>
+<nierror code="-536862745">
+FTLIB_ERR_INTERFACE_E7
+</nierror>
+<nierror code="-536862744">
+FTLIB_ERR_INTERFACE_E8
+</nierror>
+<nierror code="-536862743">
+FTLIB_ERR_INTERFACE_E9
+</nierror>
+<nierror code="-536862742">
+FTLIB_ERR_INTERFACE_EA
+</nierror>
+<nierror code="-536862741">
+FTLIB_ERR_INTERFACE_EB
+</nierror>
+<nierror code="-536862740">
+FTLIB_ERR_INTERFACE_EC
+</nierror>
+<nierror code="-536862739">
+FTLIB_ERR_INTERFACE_ED
+</nierror>
+<nierror code="-536862738">
+FTLIB_ERR_INTERFACE_EE
+</nierror>
+<nierror code="-536862737">
+FTLIB_ERR_INTERFACE_EF
+</nierror>
+<nierror code="-536862736">
+FTLIB_ERR_INTERFACE_F0
+</nierror>
+<nierror code="-536862735">
+FTLIB_ERR_INTERFACE_F1
+</nierror>
+<nierror code="-536862734">
+FTLIB_ERR_INTERFACE_F2
+</nierror>
+<nierror code="-536862733">
+FTLIB_ERR_INTERFACE_F3
+</nierror>
+<nierror code="-536862732">
+FTLIB_ERR_INTERFACE_F4
+</nierror>
+<nierror code="-536862731">
+FTLIB_ERR_INTERFACE_F5
+</nierror>
+<nierror code="-536862730">
+FTLIB_ERR_INTERFACE_F6
+</nierror>
+<nierror code="-536862729">
+FTLIB_ERR_INTERFACE_F7
+</nierror>
+<nierror code="-536862728">
+FTLIB_ERR_INTERFACE_F8
+</nierror>
+<nierror code="-536862727">
+FTLIB_ERR_INTERFACE_F9
+</nierror>
+<nierror code="-536862726">
+FTLIB_ERR_INTERFACE_FA
+</nierror>
+<nierror code="-536862725">
+FTLIB_ERR_INTERFACE_FB
+</nierror>
+<nierror code="-536862724">
+FTLIB_ERR_INTERFACE_FC
+</nierror>
+<nierror code="-536862723">
+FTLIB_ERR_INTERFACE_FD
+</nierror>
+<nierror code="-536862722">
+FTLIB_ERR_INTERFACE_FE
+</nierror>
+<nierror code="-536862721">
+FTLIB_ERR_INTERFACE_FF
+</nierror>
+
+</nidocument>
